@@ -1,0 +1,45 @@
+
+  body {
+    font-family: system-ui;
+    color: #555;
+    background-color: #a1a0a0;
+    min-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  #search{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+  #countryCard {
+    background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.4rem;
+  width: 320px;
+  border-radius: 0.7rem;
+  margin: 0 3rem;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-flow: column;
+  }
+  #countryCard.hidden {
+      display: none;
+  }
+  #countryCard div {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  #flag {
+    max-width:100%;
+    max-height:100%;
+  }
